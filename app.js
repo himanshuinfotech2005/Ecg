@@ -1,7 +1,7 @@
 if(process.env.NODE_ENV !="production"){     //STORNG IN CLOUD
     require("dotenv").config();
 }
-console.log(process.env.SECRET);
+
 
 const express=require("express");
 const app = express();
